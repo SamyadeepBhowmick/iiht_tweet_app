@@ -1,0 +1,29 @@
+
+.colContainerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkTextFormat {
+    text-decoration: black;
+    color: white;
+}
+
+.linkTextFormat:hover {
+    text-decoration: none;
+    color: white;
+}
+.btnHomePage {
+    width: 100%;
+    background: #1A8CD8;
+    border-color: #1A8CD8;
+}
+
+.btnHomePage:hover {
+    background-color: rgba(0, 43, 170, 0.773);
+    border-color: rgba(0, 43, 170, 0.773);
+}
+
+.colWithButtons {
+    margin-top: 15%;
+}

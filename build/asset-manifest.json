@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd2d1bc5.css",
+    "main.js": "/static/js/main.5393f081.js",
+    "static/js/787.5355ae0c.chunk.js": "/static/js/787.5355ae0c.chunk.js",
+    "static/media/psn-logo-large.png": "/static/media/psn-logo-large.489c868c129f7046ef2f.png",
+    "index.html": "/index.html",
+    "main.bd2d1bc5.css.map": "/static/css/main.bd2d1bc5.css.map",
+    "main.5393f081.js.map": "/static/js/main.5393f081.js.map",
+    "787.5355ae0c.chunk.js.map": "/static/js/787.5355ae0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd2d1bc5.css",
+    "static/js/main.5393f081.js"
+  ]
+}
