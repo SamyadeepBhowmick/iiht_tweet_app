@@ -1,0 +1,44 @@
+How to run kafka??
+
+zookeeper .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+kafka .\bin\windows\kafka-server-start.bat .\config\server.properties
+consumer from bin/windows kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic userauth
+
+
+How to install mongodb in amazon linux in AWS??
+Refer to the link:: https://www.mongodb.com/docs/v6.0/tutorial/install-mongodb-on-amazon/
+sudo vi /etc/yum.repos.d/mongodb-org-6.0.repo file so that we can install MongoDB directly using yum:
+
+
+To install java??
+sudo amazon-linux-extras install java-openjdk11
+
+To switch to a different java version??
+alternatives --config java
+
+To kill the port??
+fuser -k 8082/tcp
+
+To run multiple spring microservice together??
+java -jar abc.jar & java -jar abc1.jar
+
+To pull jar from S3 bucket??
+wget objectID url of jar
+
+Link to install node in AWS??
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+
+
+
+For one time permanent use of node
+Simplest way to install npm/nodejs on Amazon Linux 2 ec2 isntance:
+
+First install epel repo using amazon-linux-extras command as below:
+sudo amazon-linux-extras install epel
+
+Now install npm and nodejs::
+sudo yum install nodejs npm
+
+you can verify the version of node and npm??
+node -v
+npm -v
